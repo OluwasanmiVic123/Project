@@ -7,4 +7,4 @@
     dest: "/home/ubuntu/pgsql.sh"
 
 - name: execute bash script on slave
-  script: pgsql.sh
+  command: sudo sh /home/ubuntu/pgsql.sh

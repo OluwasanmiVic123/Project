@@ -41,9 +41,14 @@
     owner: "{{ remote_user }}"
     state: directory
 
-- name: set www:data
-  shell: sudo chown -R www-data:www-data "{{ remote_www_root }}/{{ app_root_dir }}"
+#- name: set www:data
+ # shell: sudo chown -R www-data:www-data "{{ remote_www_root }}/{{ app_root_dir }}"
 
-- name: more data on storage
-  shell: sudo -R 775 "{{ remote_www_root }}/{{ app_root_dir }}"/storage
+#- name: set permission
+#  command: sudo chmod -R 755 /var/www/laravel-realworld-example-app
 
+#- name: set permission
+ # shell: sudo chmod -R 775 /var/www/laravel-realworld-example-app/bootstrap/cache
+
+#- name: more data on storage
+#  shell: sudo chmod -R 775 "{{ remote_www_root }}/{{ app_root_dir }}"/storage
