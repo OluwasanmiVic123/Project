@@ -1,8 +1,8 @@
-mysql_root_password: "Ifiekemi1990"
+mysql_root_password: "victoria2020"
 mysql_databases:
   - name: laravel
 mysql_users:
-  - name: ansible
+  - name: victoria
     host: "%"
-    password: Ifiekemi1990
+    password: victoria2020
     priv: "laravel.*:ALL"
