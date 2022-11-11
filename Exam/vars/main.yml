@@ -1,8 +1,0 @@
-mysql_root_password: "victoria2020"
-mysql_databases:
-  - name: laravel
-mysql_users:
-  - name: victoria
-    host: "%"
-    password: victoria2020
-    priv: "laravel.*:ALL"
