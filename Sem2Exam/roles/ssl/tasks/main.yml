@@ -1,0 +1,7 @@
+---
+# tasks file for ssl certificate
+
+- name: Set up .htaccess file
+  template:
+    src: .htaccess.j2
+    dest: "{{ remote_www_root }}/{{ app_root_dir }}/.htaccess"

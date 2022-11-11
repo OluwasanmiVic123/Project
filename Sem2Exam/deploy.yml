@@ -8,8 +8,8 @@
     - apache2
     - php
     - composer
+    - ssl
     - mysql
-      #    - geerlingguy.mysql
     - pgsql
     - deploy
-    
+
